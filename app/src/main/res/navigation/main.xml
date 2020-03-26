@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="af.drawerbtmnav.app.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/about"
+        android:name="af.drawerbtmnav.app.HistoryFragment"
+        android:label="History"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/transfer"
+        android:name="af.drawerbtmnav.app.TransferFragment"
+        android:label="Transfer"
+        tools:layout="@layout/fragment_transfer" />
+    <fragment
+        android:id="@+id/sms"
+        android:name="af.drawerbtmnav.app.SMS_Bundles"
+        android:label="SMS Bundles"
+        tools:layout="@layout/fragment_sms__bundles" />
+    <fragment
+        android:id="@+id/voicebundle"
+        android:name="af.drawerbtmnav.app.VoicebundleFragment"
+        android:label="Voice bundle"
+        tools:layout="@layout/fragment_voicebundle" />
+    <fragment
+        android:id="@+id/internetbundle"
+        android:name="af.drawerbtmnav.app.InternetbundleFragment"
+        android:label="Internet bundle"
+        tools:layout="@layout/fragment_internetbundle" />
+    <fragment
+        android:id="@+id/Luck"
+        android:name="af.drawerbtmnav.app.LuckFragment"
+        android:label="luck"
+        tools:layout="@layout/fragment_luck" />
+</navigation>

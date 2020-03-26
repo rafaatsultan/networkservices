@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="appBar">#1D2A7A</color>
+    <color name="bottomBar">#757575</color>
+    <color name="button">#287FC0</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#1D2A7A</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="cardview">#E9E8E8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#DAD5D5</color>
+    <color name="yellow">#FFC107</color>
+    <color name="navColor">#3F51B5</color>
+</resources>
